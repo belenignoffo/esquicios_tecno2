@@ -12,9 +12,9 @@ void setup() {
 }
 
 void draw() {
-  //background(255);
+  background(255);
   // ---- Lo que yo necesito que pase:
-  boolean condicionRandom = false; // ---- Acá sería siempre que haya sonido 
+  boolean condicionRandom = true; // ---- Acá sería siempre que haya sonido 
   float mapeoTam = map(mouseX, 0, width, 150, 230);
 
   if (condicionRandom) {
